@@ -1,0 +1,7 @@
+#nav {
+    background-color: #FBC103;
+}
+
+#dropdown a.navbar-brand {
+    margin: 0 25px; /* Agregué un poco de margen en los elementos del navbar */
+}
