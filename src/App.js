@@ -10,7 +10,10 @@ import './Logo.css';
 import './Home.css';
 import './Map.css';
 
+import ProfilePage from './profile/ProfilePage.js';
+
 function App() {
+  /*
   return (
     <div className="App">
       <Navbar />
@@ -21,6 +24,10 @@ function App() {
   
     </div>
   );
+  */
+  
+  return <ProfilePage />;
+  
 }
 
 export default App;
