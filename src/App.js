@@ -1,33 +1,20 @@
-import Navbar from './Navbar.js';
-import Footer from './Footer.js';
-import Logo from './Logo.js';
-import Home from './Home.js';
-import Map from './Map.js';
-import './App.css';
-import './Navbar.css';
-import './Footer.css';
-import './Logo.css';
-import './Home.css';
-import './Map.css';
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
+import Routing from './routing/Routing.js';
 
-import ProfilePage from './profile/ProfilePage.js';
+import './App.css';
+import './components/css/Navbar.css';
+import './components/css/Footer.css';
+
 
 function App() {
-  /*
   return (
     <div className="App">
       <Navbar />
-      <Logo />
-      <Home />
-      <Map />
+      <Routing />
       <Footer />
-  
     </div>
   );
-  */
-  
-  return <ProfilePage />;
-  
 }
 
 export default App;
