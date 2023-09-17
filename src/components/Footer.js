@@ -1,10 +1,20 @@
+import React from 'react';
+
 function Footer() {
     return (
         <footer>
             <div id="footer">
-                <a class="navbar-brand" href="#" target="_blank"></a><i class="fas fa-info"></i>Information
-                <a class="navbar-brand" href="#" target="_blank"></a><i class="fas fa-comment"></i>FAQS
-                <a class="navbar-brand" href="#" target="_blank"></a><i class="fas fa-users"></i>
+                <nav>
+                    <a href="#" target="_blank" aria-label="Information">
+                        <i className="fas fa-info"></i> Information
+                    </a>
+                    <a href="#" target="_blank" aria-label="FAQs">
+                        <i className="fas fa-comment"></i> FAQs
+                    </a>
+                    <a href="#" target="_blank" aria-label="Users">
+                        <i className="fas fa-users"></i> Users
+                    </a>
+                </nav>
             </div>
         </footer>
     )

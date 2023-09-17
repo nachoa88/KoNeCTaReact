@@ -1,20 +1,22 @@
+import React from 'react';
+
 function Map() {
     return (
         <div>
-            <h1>Events in map</h1>
+            <h1>Events on Map</h1>
 
-            <div class="row" id="map">
-                <div class="col-md-1"></div>
-                <div class="col-md-7">
-                    <img src="img/map.jpg" class="card-img-top" alt="..."/>
+            <div className="row" id="map">
+                <div className="col-md-1"></div>
+                <div className="col-md-7">
+                    <img src="img/map.jpg" className="card-img-top" alt="Map of Events" />
                 </div>
-                <div class="col-md-3">
-                    <a href="..." class="btn btn-primary">Filter by</a>
+                <div className="col-md-3">
+                    <a href="#" className="btn btn-primary" aria-label="Filter events">Filter by</a>
                 </div>
-                <div class="col-md-1"></div>
+                <div className="col-md-1"></div>
             </div>
         </div>
     )
 }
 
-export default Map
+export default Map;

@@ -7,11 +7,20 @@ function ProfileInfo() {
         <img src="./img/Graffitti.jpeg" className="img-fluid" alt="Profile Picture" />
       </div>
       <div className="profile-personal">
-        <h4>Personal</h4>
+        <h4>Personal Information</h4>
         <ul className="list-unstyled">
-          <li><strong>Username:</strong> name1234</li>
-          <li><strong>Birthday:</strong> 18/09/2015</li>
-          <li><strong>Tokens:</strong> 20</li>
+          <li>
+            <span className="profile-label">Username:</span>
+            <span className="profile-value">name1234</span>
+          </li>
+          <li>
+            <span className="profile-label">Birthday:</span>
+            <span className="profile-value">18/09/2015</span>
+          </li>
+          <li>
+            <span className="profile-label">Tokens:</span>
+            <span className="profile-value">20</span>
+          </li>
         </ul>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import React from 'react';
 import Logo from '../components/Logo.js';
 import Home from '../components/Home.js';
 import Map from '../components/Map.js';
