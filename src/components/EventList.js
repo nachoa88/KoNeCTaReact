@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Event from './Event.js';
 import DataService from '../services/DataService.js';
 
@@ -8,8 +8,10 @@ function EventList() {
     
     const [evnts, setEvents] = useState([]);
 
-    ds.getEventList(setEvents);
-    
+    useEffect(() =>{
+        ds.getEventList(setEvents);
+    }, []);
+
     return (
         <>
             {

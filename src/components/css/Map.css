@@ -1,15 +1,21 @@
+#map {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  align-items: center;
+}
+
 #map .col-md-7 .card-img-top {
-    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
-  }
-  
-  #map .col-md-3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } 
-  
-  #map .col-md-3 .btn.btn-primary {
-    font-size: 18px; /* Increase font size to make the button bigger */
-    padding: 10px 20px; /* Adjust padding to increase button size */
-  }
-  
+  border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+}
+
+#map .col-md-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#map .col-md-3 .btn.btn-primary {
+  font-size: 18px; /* Increase font size to make the button bigger */
+  padding: 10px 20px; /* Adjust padding to increase button size */
+}
