@@ -1,3 +1,8 @@
+function enableDarkMode(){
+    let mainBody = document.body;
+    mainBody.classList.toggle("light-mode")
+}
+
 function Navbar() {
     return (
         <header>
@@ -24,12 +29,20 @@ function Navbar() {
                     <li className="nav-item">
                         <a href="login.html" className="nav-link" aria-label="Log in"><i className="fas fa-arrow-right"></i>Log in</a>
                     </li>
+                    <li className="nav-item">
+                        <label for="dark-mode-toggle" className="dark-mode-toggle">
+                            <i className="fas fa-sun" aria-hidden="true"></i>
+                            <input type="checkbox" id="dark-mode-toggle" onClick={()=>enableDarkMode()}
+                                aria-label="Toggle Dark Mode"/>
+                            <i className="fas fa-moon" aria-hidden="true"></i>
+                        </label>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
         </header>
     )
-}
+};
 
 export default Navbar;

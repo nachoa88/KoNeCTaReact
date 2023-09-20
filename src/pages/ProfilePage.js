@@ -3,9 +3,10 @@ import ProfileInfo from '../components/ProfileInfo';
 import ButtonRow from '../components/ButtonRow';
 import AboutMe from '../components/AboutMe';
 import Hobbies from '../components/Hobbies';
-import CardContainer from '../components/CardContainer';
+import EventList from "../components/EventList.js";
 
 import '../components/css/Profile.css';
+import '../components/css/Button.css';
 
 function ProfilePage() {
   return (
@@ -19,7 +20,7 @@ function ProfilePage() {
             <Hobbies />
           </div>
           <div className="col-md-6 d-flex align-items-center">
-            <CardContainer />
+            <EventList />
           </div>
         </div>
       </div>

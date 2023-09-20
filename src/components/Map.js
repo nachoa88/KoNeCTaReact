@@ -3,15 +3,15 @@ function Map() {
         <div>
             <h1>Events in map</h1>
 
-            <div class="row" id="map">
-                <div class="col-md-1"></div>
-                <div class="col-md-7">
-                    <img src="img/map.jpg" class="card-img-top" alt="..."/>
+            <div className="row" id="map">
+                <div className="col-md-1"></div>
+                <div className="col-md-7">
+                    <img src="img/map.jpg" className="card-img-top" alt="..."/>
                 </div>
-                <div class="col-md-3">
-                    <a href="..." class="btn btn-primary">Filter by</a>
+                <div className="col-md-3">
+                    <a href="..." className="btn btn-primary">Filter by</a>
                 </div>
-                <div class="col-md-1"></div>
+                <div className="col-md-1"></div>
             </div>
         </div>
     )
