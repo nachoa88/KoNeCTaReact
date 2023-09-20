@@ -1,7 +1,18 @@
+/*------ NAVBAR ------*/
 #nav {
-    background-color: #FBC103;
-}
-
-#dropdown a.navbar-brand {
+    font-family: Kaushan Script;
+    background-color: #FBC103 !important;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
     margin: 0 25px; /* Agregué un poco de margen en los elementos del navbar */
-}
+  }
+  
+  .nav-link {
+    text-decoration: none; /* Remove underlines from links */
+    color: black; /* Set link color */
+  }

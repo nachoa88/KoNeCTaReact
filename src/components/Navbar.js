@@ -1,16 +1,33 @@
 function Navbar() {
     return (
         <header>
-            <nav class="navbar navbar-expand-lg" id="nav">
-                <div class="container-fluid">
-                    <div class="dropdown" id="dropdown">
-                        <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i>Home</a>
-                        <a class="navbar-brand" href="profile.html"><i class="fas fa-user"></i>Profile</a>
-                        <a class="navbar-brand" href="events.html"><i class="fas fa-swatchbook"></i>Events</a>
-                        <a class="navbar-brand" href="#"><i class="fas fa-book-open"></i>Register</a>
-                    </div>
-                </div>
-            </nav>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+        <div className="container-fluid">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <a href="index.html" className="nav-link" aria-label="Home"><i className="fas fa-home"></i>Home</a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="events.html" className="nav-link" aria-label="Events"><i className="fas fa-swatchbook"></i>Events</a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="profile.html" className="nav-link" aria-label="Profile"><i className="fas fa-user"></i>Profile</a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="register.html" className="nav-link" aria-label="Register"><i className="fas fa-book-open"></i>Register</a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="login.html" className="nav-link" aria-label="Log in"><i className="fas fa-arrow-right"></i>Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
         </header>
     )
 }
