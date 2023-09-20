@@ -1,4 +1,4 @@
-function Home() {
+function HomeCards() {
     return (
         <div class="row">
             <div class="col-md-1"></div>
@@ -36,4 +36,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default HomeCards;
