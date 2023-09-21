@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-body {
-  font-family: Kaushan Script;
-  background-color: black;
-}
-
 h1 {
   text-align: center;
   color: whitesmoke;
+  font-family: Kaushan Script;
+  margin-bottom: 30px;
 }
 
 .card {
   border: #19E7ED solid 1px;
 }
 
-.btn {
-  background-color: #B53457;
+body {
+  font-family: sans-serif;
+  background-color: black;
   color: whitesmoke;
-  padding: 1% 5% 1% 5%;
+  transition: 0.5s ease-in-out;
 }

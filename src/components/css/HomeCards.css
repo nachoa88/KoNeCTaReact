@@ -1,15 +1,8 @@
 /* HOME */
 #events,
 #profile {
-  width: 65%; /* Establece el ancho deseado para las tarjetas */
+  width: 50%; /* Establece el ancho deseado para las tarjetas */
   margin: 0 auto 80px; /* Centra horizontalmente y agrega un margen inferior de 80px */
-}
-
-#map {
-  margin: 0 auto;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  align-items: center;
 }
 
 #events .card-body h3.card-title,
