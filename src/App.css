@@ -4,4 +4,16 @@ h1 {
   text-align: center;
   color: whitesmoke;
   font-family: Kaushan Script;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: #19E7ED solid 1px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: whitesmoke;
+  transition: 0.5s ease-in-out;
 }

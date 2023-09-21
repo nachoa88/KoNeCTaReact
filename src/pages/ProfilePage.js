@@ -19,7 +19,7 @@ function ProfilePage() {
             <AboutMe />
             <Hobbies />
           </div>
-          <div className="col-md-6 d-flex align-items-center">
+          <div className="col-md-6">
             <EventList />
           </div>
         </div>

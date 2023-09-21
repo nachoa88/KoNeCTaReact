@@ -4,7 +4,7 @@ function ProfileInfo() {
   return (
     <div className="d-flex mb-3">
       <div className="profile-img-container">
-        <img src="./img/Graffitti.jpeg" className="img-fluid" alt="Profile Picture" />
+        <img src="./img/Graffitti.jpeg" className="img-fluid" alt="Profile" />
       </div>
       <div className="profile-personal">
         <h4>Personal</h4>

@@ -1,17 +1,17 @@
 /* FILTER EVENTS LIST */
 #filter {
-    margin-bottom: 20px;
-  }
-  
-  #filter h4 {
-    color: whitesmoke;
-    text-align: center;
-    line-height: 50px;
-  }
-  
-  #eventFilter {
-    width: 80%;
-    /* Use the entire available width */
-    border-radius: 10px;
-    padding: 10px;
-  }
+  margin-bottom: 20px;
+}
+
+#filter h3 {
+  font-family: Kaushan Script;
+  color: whitesmoke;
+  text-align: center;
+  line-height: 50px;
+}
+
+#eventFilter {
+  width: 80%; /* Use the 80% of the entire available width */
+  border-radius: 10px;
+  padding: 10px;
+}
