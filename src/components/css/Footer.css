@@ -1,4 +1,13 @@
 #footer {
-    background-color: #FBC103;
-    height: 10vh;
-  }
+  font-family: Kaushan Script;
+  background-color: #FBC103;
+  color: black;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer a {
+  margin: 0 50px; /* Agregué un poco de margen en los elementos del navbar */
+}

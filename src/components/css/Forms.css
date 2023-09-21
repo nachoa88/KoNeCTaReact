@@ -1,0 +1,37 @@
+/* LOGIN - REGISTER */
+.form-signin {
+  max-width: 540px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-signin-footer {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+#terms {
+  margin: 0 auto !important;
+  text-align: center !important;
+  margin-bottom: 30px !important;
+}
+
+#name,
+#surname,
+#email,
+#username,
+#password,
+#rpassword,
+#signup {
+  margin-bottom: 20px;
+}

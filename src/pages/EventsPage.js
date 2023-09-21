@@ -5,14 +5,16 @@ import EventList from "../components/EventList.js";
 import '../components/css/Logo.css';
 import '../components/css/Button.css';
 import '../components/css/Filter.css';
-import '../components/css/Cards.css';
+import '../components/css/Event.css';
 
 function EventsPage() {
     return(
         <div>
             <Logo />
             <Filter />
+            <div className="container" id="eventsList">
             <EventList />
+            </div>
         </div>
     )
 }

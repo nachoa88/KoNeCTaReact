@@ -1,8 +1,4 @@
 /* HOME */
-.card {
-  border: #19E7ED solid 1px;
-}
-
 #events,
 #profile {
   width: 50%; /* Establece el ancho deseado para las tarjetas */
