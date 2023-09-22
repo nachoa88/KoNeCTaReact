@@ -6,12 +6,23 @@
 #filter h3 {
   font-family: Kaushan Script;
   color: whitesmoke;
+  transition: color 0.5s ease;
   text-align: center;
   line-height: 50px;
+}
+
+.light-mode #filter h3 {
+  color: black;
 }
 
 #eventFilter {
   width: 80%; /* Use the 80% of the entire available width */
   border-radius: 10px;
+  border-color: transparent;
+  transition: border-color 0.5s ease;
   padding: 10px;
+}
+
+.light-mode #eventFilter {
+  border-color: #B53457;
 }

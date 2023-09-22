@@ -15,3 +15,14 @@
   display: block; /* Change display to block to center horizontally */
   margin: 10px auto 10px auto; /* Center horizontally with some vertical spacing */
 }
+
+#profile .card-body,
+#events .card-body {
+  background-color: whitesmoke;
+  transition: background-color 0.5s ease;
+}
+
+.light-mode #profile .card-body,
+.light-mode #events .card-body {
+  background-color: lightgray;
+}

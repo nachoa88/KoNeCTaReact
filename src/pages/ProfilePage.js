@@ -6,6 +6,7 @@ import Hobbies from '../components/Hobbies';
 import EventList from "../components/EventList.js";
 
 import '../components/css/Profile.css';
+import '../components/css/ProfileInfo.css';
 import '../components/css/Button.css';
 
 function ProfilePage() {
