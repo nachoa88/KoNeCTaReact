@@ -3,9 +3,17 @@
   max-width: 540px;
   padding: 15px 35px 45px;
   margin: 0 auto;
-  color: white;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  color: whitesmoke;
+  transition: color 0.5s ease, border 0.5s ease, background-color 0.5s ease;
   text-align: center;
+  border-radius: 10px;
+}
+
+.light-mode .form-signin {
+  color: black;
+  background-color: rgba(211, 211, 211, 0.5);
+  border: 1px solid #B53457;
 }
 
 .form-signin-footer {
