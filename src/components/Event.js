@@ -5,9 +5,7 @@ function viewDetails(id) {
 function Event({ eventID, img, eventName, eventType, description,
     locationHtml, location, startingDate, finishingDate, startingTime, finishingTime }) {
 
-
     return (
-
         <div className="card mb-3">
             <div className="row">
                 <div className="col-md-4">
@@ -25,7 +23,6 @@ function Event({ eventID, img, eventName, eventType, description,
                 </div>
             </div>
         </div>
-
     )
 }
 
