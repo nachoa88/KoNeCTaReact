@@ -1,0 +1,26 @@
+#profileInfo h3 {
+    font-family: Kaushan Script;
+    color: whitesmoke;
+    transition: color 0.5s ease;
+    text-align: center;
+    line-height: 50px;
+}
+
+.light-mode #profileInfo h3 {
+    color: black;
+}
+
+#userAvatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.profile-img-container,
+.profile-personal {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}

@@ -5,10 +5,20 @@ h1 {
   color: whitesmoke;
   font-family: Kaushan Script;
   margin-bottom: 30px;
+  transition: color 0.5s ease;
+}
+
+.light-mode h1 {
+  color: black;
 }
 
 .card {
   border: #19E7ED solid 1px;
+  transition: border 0.5s ease;
+}
+
+.light-mode .card {
+  border: #B53457 solid 1px;
 }
 
 body {
@@ -16,4 +26,10 @@ body {
   background-color: black;
   color: whitesmoke;
   transition: 0.5s ease-in-out;
+  background-image: url('../public/img/BackgroundTransparent.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 80% 80%;
+  background-position-x: 200px;
+  background-position-y: 130px;
 }
