@@ -7,6 +7,7 @@ import ProfilePage from '../pages/ProfilePage.js';
 import EventsPage from '../pages/EventsPage.js';
 import LoginPage from '../pages/LoginPage.js';
 import RegisterPage from '../pages/RegisterPage.js';
+import CreateEventPage from "../pages/CreateEventPage.js";
 
 import '../components/css/Navbar.css';
 import '../components/css/Footer.css';
@@ -21,6 +22,7 @@ function Routing() {
                 <Route path="events" element={<EventsPage />} />
                 <Route path="login" element={<LoginPage />} />
                 <Route path="register" element={<RegisterPage />} />
+                <Route path="createevent" element={<CreateEventPage />} />
             </Routes>
             <Footer />
         </BrowserRouter>
