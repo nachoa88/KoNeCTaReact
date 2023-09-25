@@ -33,3 +33,11 @@ body {
   background-position-x: 200px;
   background-position-y: 130px;
 }
+
+label {
+  text-align: center;
+  color: whitesmoke;
+  font-family: Kaushan Script;
+  margin-bottom: 30px;
+  transition: color 0.5s ease;
+}
