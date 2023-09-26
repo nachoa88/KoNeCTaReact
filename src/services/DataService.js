@@ -1,5 +1,6 @@
 class DataService {
-    url = "https://ew6ohmfse7.execute-api.us-east-1.amazonaws.com/KoNeCTa";
+    //url = "https://ew6ohmfse7.execute-api.us-east-1.amazonaws.com/KoNeCTa";
+    url = "http://localhost:8080/api";
     getData(path, callback) {
         fetch(this.url + path)
             .then(res => res.json())
