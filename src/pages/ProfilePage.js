@@ -21,7 +21,7 @@ function ProfilePage() {
             <Hobbies />
           </div>
           <div className="col-md-6">
-            <EventList />
+            <EventList filterValue={""}/>
           </div>
         </div>
       </div>
