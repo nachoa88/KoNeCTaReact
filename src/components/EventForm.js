@@ -4,9 +4,7 @@ export default function CreateEventPage() {
     return (
         <div className="container">
             <div className="form-createevent">
-                <div className="row">
-                    <h1 className="form-signin-heading">Create event</h1>
-                </div>
+                <h1 className="form-signin-heading">Create event</h1>
                 <div className="row">
                     <form method="post">
                         <div className="form-group">
