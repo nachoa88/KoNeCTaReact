@@ -23,6 +23,7 @@
 
 /*------ THEME DARK-LIGHT ------*/
 .dark-mode-toggle {
+  color: black;
   display: flex; /* Display its contents horizontally */
   align-items: center; /* Vertically center the contents within the navbar */
   cursor: pointer; /* Change cursor to pointer on hover for better usability */

@@ -15,11 +15,11 @@ function SignInForm() {
                     <div className="col-12">
                         <div className="container">
                             <div className="row">
-                                <div className="caja col-4">
-                                    <label className="checkbox">
-                                        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe" />Remember me</label>
+                                <div className="caja col-6">
+                                    <label className="checkbox" id="rememberMe" >
+                                        <input type="checkbox" value="remember-me" name="rememberMe" />Remember me</label>
                                 </div>
-                                <div class="caja col-8">
+                                <div class="caja col-6">
                                     <NavLink to="/profile" className="btn btn-lg btn-primary btn-block" type="submit">Log in</NavLink>
                                 </div>
                             </div>
