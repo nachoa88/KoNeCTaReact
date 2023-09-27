@@ -86,7 +86,9 @@
 #eventName,
 #eventType,
 #eventDescription,
-#date {
+#date,
+#hour,
+#location {
   margin-bottom: 20px;
 }
 
@@ -124,4 +126,12 @@ form fieldset {
   margin: 0 auto;
   display: block;
   width: fit-content;
+}
+
+@media screen and (max-width: 767px) {
+  form fieldset {
+    width: 100%;
+    padding: 0% 5% 0% 5%;
+  }
+
 }
