@@ -111,7 +111,6 @@ form fieldset {
 }
 
 /*EventForm*/
-
 #minimap {
   padding: 5% 5% 5% 5%;
   width: 370px;
@@ -119,8 +118,6 @@ form fieldset {
   margin: 0 auto;
   display: block;
 }
-
-/*EventForm*/
 
 #save {
   margin: 0 auto;
@@ -133,5 +130,4 @@ form fieldset {
     width: 100%;
     padding: 0% 5% 0% 5%;
   }
-
 }
