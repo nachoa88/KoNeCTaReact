@@ -1,5 +1,29 @@
 import { NavLink } from "react-router-dom";
 
+function SendForm(){
+    
+    let data = {
+        "eventName": "ejemplo"
+        }
+
+    fetch('http://localhost:8080/api/events', {
+        method: "POST",
+        mode: "cors",
+        cache: "no-cache",
+        credentials: "same-origin",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        redirect: "follow",
+        referrerPolicy: "no-referrer",
+        body: JSON.stringify(data),
+    })
+    .then (res => res.json())
+    .then (int => { //newEvent() retorna un int
+        console.log(int)
+    })
+}
+
 export default function CreateEventPage() {
     return (
         <div className="container">
@@ -34,7 +58,7 @@ export default function CreateEventPage() {
                                 <label for="location" className="formlabel">Location</label>
                                 <input type="text" id="location" name="location" size="30" placeholder="Lugar del evento" required className="form-control"></input>
                                 <img src="img/map.jpg" alt="..." id="minimap" />
-                                <div className="form-signin-footer"><NavLink to="/events" className="btn btn-lg btn-primary btn-block" id="save" type="submit">  Save  </NavLink></div>
+                                <div className="form-signin-footer"><button className="btn btn-lg btn-primary btn-block" id="save" type="submit" onClick={SendForm}>  Save  </button></div>
                             </fieldset>
                         </div>
                     </form>
