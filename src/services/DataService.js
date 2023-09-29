@@ -1,8 +1,10 @@
 class DataService {
-    // URL BACKEND
-    url = "http://localhost:8080/api";
-    // URL FAKE BACKEND
-    // url = "https://ew6ohmfse7.execute-api.us-east-1.amazonaws.com/KoNeCTa";
+    // URL DB TOMCAT NACHO
+    url = "http://52.45.160.79:8080/api-events-v1/api";
+    
+
+    // URL BACKEND DESDE VSC --> url = "http://localhost:8080/api";
+    // URL FAKE BACKEND --> url = "https://ew6ohmfse7.execute-api.us-east-1.amazonaws.com/KoNeCTa";
     getData(path, callback) {
         fetch(this.url + path)
             .then(res => res.json())
