@@ -1,5 +1,5 @@
 import Logo from '../components/Logo.js';
-import HomeCards from '../components/HomeCards.js';
+import Carrousel from '../components/Carrousel.js';
 import Map from '../components/Map.js';
 
 import '../components/css/Logo.css';
@@ -11,7 +11,7 @@ function HomePage() {
     return(
         <div>
             <Logo />
-            <HomeCards />
+            <Carrousel />
             <Map />
         </div>
     )
