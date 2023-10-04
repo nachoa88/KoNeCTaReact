@@ -23,6 +23,9 @@ function Navbar() {
                                 <NavLink to="/events" className="nav-link" aria-label="Events"><i className="fas fa-swatchbook"></i>Events</NavLink>
                             </li>
                             <li className="nav-item">
+                                <NavLink to="/createevent" className="nav-link" aria-label="Submit your event"><i className="fas fa-swatchbook"></i>Submit your event</NavLink>
+                            </li>
+                            <li className="nav-item">
                                 <NavLink to="/profile" className="nav-link" aria-label="Profile"><i className="fas fa-user"></i>Profile</NavLink>
                             </li>
                             <li className="nav-item">
