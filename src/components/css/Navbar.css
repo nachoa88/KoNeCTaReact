@@ -23,11 +23,13 @@
 
 /*------ THEME DARK-LIGHT ------*/
 .dark-mode-toggle {
+  color: black;
   display: flex; /* Display its contents horizontally */
   align-items: center; /* Vertically center the contents within the navbar */
   cursor: pointer; /* Change cursor to pointer on hover for better usability */
   height: 40px; /* Adjust the height as needed */
   margin: 0 5px; /* Add margin to create spacing */
+  color: black;
 }
 
 input[type="checkbox"] {

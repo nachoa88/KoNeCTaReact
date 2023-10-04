@@ -1,4 +1,15 @@
 /* LOGIN - REGISTER */
+.formlabel {
+  color: whitesmoke;
+  font-size: 20px;
+  transition: color 0.5s ease;
+}
+
+.light-mode .formlabel {
+  color: black;
+}
+/* para cambiar el de arriba de color con el light-mode */
+
 .form-signin {
   max-width: 540px;
   padding: 15px 35px 45px;
@@ -16,6 +27,25 @@
   border: 1px solid #B53457;
 }
 
+.form-createevent {
+  margin: 0 auto;
+  background-color: transparent;
+  color: whitesmoke;
+  transition: color 0.5s ease, border 0.5s ease, background-color 0.5s ease;
+  border-radius: 10px;
+}
+
+/*copia a .form-signin, adaptado a la estructura de createevent*/
+
+.light-mode .form-createevent {
+  color: black;
+  background-color: rgba(211, 211, 211, 0.5);
+  border: 1px solid #B53457;
+  margin-bottom: 20px;
+}
+
+/*copia a .light-mode .form-signin, adaptado a la estructura de createevent*/
+
 .form-signin-footer {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -28,10 +58,22 @@
   padding: 10px;
 }
 
+#rememberMe {
+  color: whitesmoke;
+  transition: color 0.5s ease;
+}
+
 #terms {
   margin: 0 auto !important;
   text-align: center !important;
   margin-bottom: 30px !important;
+  color: whitesmoke;
+  transition: color 0.5s ease;
+}
+
+.light-mode #terms, 
+.light-mode #rememberMe {
+  color: black;
 }
 
 #name,
@@ -40,6 +82,55 @@
 #username,
 #password,
 #rpassword,
-#signup {
+#signup,
+#eventName,
+#eventType,
+#eventDescription,
+#startingDate,
+#finishingDate,
+#startingTime,
+#finishingTime,
+#locationHtml,
+#location {
   margin-bottom: 20px;
+}
+
+form fieldset {
+  float: left;
+  width: 45%;
+  padding: 0% 5% 0% 5%;
+}
+
+/*para poder separar el formulario de create event en dos columnas*/
+
+#upload {
+  padding: 5% 5% 5% 5%;
+  width: 340px;
+  height: 250px;
+  margin: 0 auto;
+  /*margen izq y derecho igual a 0 en ppio y el navegador lo centra,sólo funciona con block*/
+  display: block;
+  /*elementos block ocupan todo el ancho disponible y se muestran en "su propia línea"*/
+}
+
+/*EventForm*/
+#minimap {
+  padding: 5% 5% 5% 5%;
+  width: 370px;
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+#save {
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+}
+
+@media screen and (max-width: 767px) {
+  form fieldset {
+    width: 100%;
+    padding: 0% 5% 0% 5%;
+  }
 }

@@ -21,7 +21,9 @@ function ProfilePage() {
             <Hobbies />
           </div>
           <div className="col-md-6">
-            <EventList />
+            {/*Como ahora event list tiene como parámetro un valor de filtro y la página profile no usa filtro, 
+            debemos pasar un valor vacío para que muestre todos los eventos*/}
+            <EventList filterValue={""}/>
           </div>
         </div>
       </div>
