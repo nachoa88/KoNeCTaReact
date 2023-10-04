@@ -86,8 +86,11 @@
 #eventName,
 #eventType,
 #eventDescription,
-#date,
-#hour,
+#startingDate,
+#finishingDate,
+#startingTime,
+#finishingTime,
+#locationHtml,
 #location {
   margin-bottom: 20px;
 }
