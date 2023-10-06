@@ -68,11 +68,14 @@ export default function CreateEventPage() {
                             <fieldset>
                                 <label htmlFor="startingDate" className="formlabel">Starting Date</label>
                                 <input type="date" id="startingDate" name="startingDate" required className="form-control" value={data.startingDate} onChange={handleInputChange} />
+                                <label htmlFor="finishingDate" className="formlabel">Finishing Date</label>
+                                <input type="date" id="finishingDate" name="finishingDate" required className="form-control" value={data.finishingDate} onChange={handleInputChange} />
                                 <label htmlFor="startingTime" className="formlabel">Starting Hour</label>
                                 <input type="time" id="startingTime" name="startingTime" required className="form-control" value={data.startingTime} onChange={handleInputChange} />
+                                <label htmlFor="finishingTime" className="formlabel">Finishing Hour</label>
+                                <input type="time" id="finishingTime" name="finishingTime" required className="form-control" value={data.finishingTime} onChange={handleInputChange} />
                                 <label htmlFor="location" className="formlabel">Location</label>
-                                <input type="text" id="location" name="location" size="30" placeholder="Lugar del evento" required
-                                    className="form-control" value={data.location} onChange={handleInputChange} />
+                                <input type="text" id="location" name="location" size="30" placeholder="Lugar del evento" required className="form-control" value={data.location} onChange={handleInputChange} />
                                 <img src="img/map.jpg" alt="..." id="minimap" />
                                 <div className="form-signin-footer">
                                     <NavLink to="/" className="btn btn-lg btn-primary btn-block" id="save" type="submit" onClick={addEvent}>Save</NavLink>

@@ -6,6 +6,7 @@ import '../components/css/Logo.css';
 import '../components/css/HomeCards.css';
 import '../components/css/Map.css';
 import '../components/css/Button.css';
+import { NavLink } from 'react-router-dom';
 
 function HomePage() {
     return(
