@@ -29,9 +29,9 @@ body {
   background-image: url('../public/img/BackgroundTransparent.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 80% 80%;
-  background-position-x: 200px;
-  background-position-y: 130px;
+  background-size: auto;
+  background-position-x: 70%;
+  background-position-y: 10rem;
 }
 
 label {
