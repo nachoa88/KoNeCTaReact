@@ -9,10 +9,10 @@
 - [Built Using](#dart-built-using)
 - [Installing](#floppy_disk-installing)
 - [Available Scripts](#gear-available-scripts)
-- [Contributors](#contributors)
-- [Learn More]()
+- [Contributors](#checkered_flag-contributors)
+- [Learn More](#bookopen_book-learn-more)
 
-## :memo:pencil: Description
+## :memo: Description
 El proyecto surge a partir de una consigna: ¿Cómo relacionar a los adolescentes y la cultura? Esto nos ha llevado a pensar diferentes formas de acercar a los adolescentes, con sus necesidades y restricciones, a la cultura.
 
 Es por esto que decidimos crear una applicación especifica para que los adolescentes encuentren aquello que les gusta, que sea práctica y sencilla, y que brinde una solución a un problema que trae de cabeza a todos los padres y educadores.
@@ -60,7 +60,7 @@ Ejecuta la aplicación en modo de desarrollo.
 Abra [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
 
 La página se recargará cuando realice cambios.
-También es posible que vea errores de pelusa en la consola.
+También es posible que vea errores en la consola.
 
 ### `npm run build`
 Para asegurar que el código esté optimizado y listo para su uso en producción:
@@ -138,7 +138,7 @@ KONECTAREACT
     └── setupTests.js
 ```
 
-## :book:open_book: Learn More
+## :open_book: Learn More
 
 Puede obtener más información en la [documentación de la aplicación Create React](https://facebook.github.io/create-react-app/docs/getting-started).
 
