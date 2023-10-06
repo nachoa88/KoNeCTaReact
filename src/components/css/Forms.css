@@ -3,6 +3,7 @@
   color: whitesmoke;
   font-size: 20px;
   transition: color 0.5s ease;
+  margin-bottom: 5px;
 }
 
 .light-mode .formlabel {
@@ -91,8 +92,10 @@
 #startingTime,
 #finishingTime,
 #locationHtml,
-#location {
-  margin-bottom: 20px;
+#location,
+#description,
+#uploadImg {
+  margin-bottom: 25px;
 }
 
 form fieldset {
