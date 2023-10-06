@@ -1,5 +1,5 @@
 # :infinity: KoNeCTa
-![Grupo2](./img/K0N3CT4.png)
+![Grupo2](./public/img/K0N3CT4Transparent.png)
 
 ## :paperclip: Table of Content
 - [KoNeCTa-Grupo2](#konecta)
@@ -12,7 +12,7 @@
 - [Contributors](#contributors)
 - [Learn More]()
 
-## :memo::pencil: Description
+## :memo:pencil: Description
 El proyecto surge a partir de una consigna: ¿Cómo relacionar a los adolescentes y la cultura? Esto nos ha llevado a pensar diferentes formas de acercar a los adolescentes, con sus necesidades y restricciones, a la cultura.
 
 Es por esto que decidimos crear una applicación especifica para que los adolescentes encuentren aquello que les gusta, que sea práctica y sencilla, y que brinde una solución a un problema que trae de cabeza a todos los padres y educadores.
@@ -81,7 +81,9 @@ La compilación está minimizada y los nombres de archivos incluyen los hashes.
 
 ## :dna: Output
 Se ha utilizado Atomic Design
-my-app
+
+```
+KONECTAREACT
 ├── README.md
 ├── node_modules
 ├── package.json
@@ -134,8 +136,9 @@ my-app
     ├── logo.svg
     ├── serviceWorker.js
     └── setupTests.js
+```
 
-## :book::open_book: Learn More
+## :book:open_book: Learn More
 
 Puede obtener más información en la [documentación de la aplicación Create React](https://facebook.github.io/create-react-app/docs/getting-started).
 
