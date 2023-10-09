@@ -2,7 +2,7 @@ import { useState } from "react";
 import DataService from "../services/DataService.js"; // Se importa DataService
 import { NavLink } from "react-router-dom";
 
-export default function CreateEventPage() {
+export default function UpdateEventForm() {
     // Se crea instancia de DataService para poder usar la función addEvent.
     const dataService = new DataService();
 
@@ -53,7 +53,7 @@ export default function CreateEventPage() {
     return (
         <div className="container">
             <div className="form-createevent">
-                <h1 className="form-signin-heading">Create event</h1>
+                <h1 className="form-signin-heading">Update event</h1>
                 <div className="row">
                     <form>
                         <div className="form-group">

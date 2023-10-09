@@ -8,6 +8,7 @@ import EventsPage from '../pages/EventsPage.js';
 import LoginPage from '../pages/LoginPage.js';
 import RegisterPage from '../pages/RegisterPage.js';
 import CreateEventPage from "../pages/CreateEventPage.js";
+import UpdateEventPage from "../pages/UpdateEventPage.js";
 import InformationPage from "../pages/InformationPage.js";
 
 import '../components/css/Navbar.css';
@@ -24,6 +25,7 @@ function Routing() {
                 <Route path="login" element={<LoginPage />} />
                 <Route path="register" element={<RegisterPage />} />
                 <Route path="createevent" element={<CreateEventPage />} />
+                <Route path="updateevent" element={<UpdateEventPage />} />
                 <Route path="information" element={<InformationPage />} />
             </Routes>
             <Footer />
