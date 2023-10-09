@@ -8,6 +8,6 @@
   justify-content: center;
 }
 
-#footer a {
+#footer .navbar-brand {
   margin: 0 50px; /* Agregué un poco de margen en los elementos del navbar */
 }

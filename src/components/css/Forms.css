@@ -57,6 +57,7 @@
   font-size: 16px;
   height: auto;
   padding: 10px;
+  margin-bottom: 25px;
 }
 
 #rememberMe {
@@ -75,27 +76,6 @@
 .light-mode #terms, 
 .light-mode #rememberMe {
   color: black;
-}
-
-#name,
-#surname,
-#email,
-#username,
-#password,
-#rpassword,
-#signup,
-#eventName,
-#eventType,
-#eventDescription,
-#startingDate,
-#finishingDate,
-#startingTime,
-#finishingTime,
-#locationHtml,
-#location,
-#description,
-#uploadImg {
-  margin-bottom: 25px;
 }
 
 form fieldset {
