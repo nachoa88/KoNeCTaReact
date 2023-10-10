@@ -5,7 +5,7 @@ function Carrousel() {
     return (
 
         <div className="row justify-content-center">
-          <div className="container-fluid">
+          <div className="container-fluid carousel-container">
             <Carousel style={{ height: 500 }}>
             <Carousel.Item style={{ height: 500 }}>
               <Stack direction="horizontal" className="h-100 justify-content-center align-items-center" gap={3}>

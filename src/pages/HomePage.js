@@ -3,6 +3,7 @@ import Carrousel from '../components/Carrousel.js';
 import Map from '../components/Map.js';
 
 import '../components/css/Logo.css';
+import '../components/css/Carrousel.css';
 import '../components/css/Map.css';
 import '../components/css/Button.css';
 

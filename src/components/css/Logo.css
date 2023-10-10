@@ -1,12 +1,13 @@
 /* Default (dark) mode logo image */
 .logo {
-  height: 25vh;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
   background-size: contain;
+  max-width: 100%;
+  height: auto; /* Auto height to maintain aspect ratio */
 }
 
 /* Light mode logo image */

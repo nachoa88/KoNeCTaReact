@@ -18,10 +18,10 @@ function Filter({ filterValue, onFilterChange }) {
 
             <div className="row" id="filter">
                 <div className="col-md-1"></div>
-                <div className="col-md-3">
+                <div className="col-md-3 col-xs-12 text-md-end text-center">
                     <h3>Filter Events:</h3>
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-8 col-xs-12 text-md-start text-center">
                     {/*Aquí en el input es que se ejecuta el handleFilterChange cuando hay algún cambio (onChange)*/}
                     <input type="text" id="eventFilter" placeholder="Filter the events list by writing the type of event"
                         value={filterValue} onChange={handleFilterChange} />
