@@ -1,6 +1,9 @@
 /* FILTER EVENTS LIST */
 #filter {
   margin-bottom: 20px;
+  display: flex; /* Use flex layout for better responsiveness */
+  flex-wrap: wrap; /* Wrap items to the next line on smaller screens */
+  justify-content: center; /* Center items horizontally */
 }
 
 #filter h3 {
@@ -25,4 +28,11 @@
 
 .light-mode #eventFilter {
   border-color: #B53457;
+}
+
+/* Hide col-md-1 divs on smaller screens */
+@media (max-width: 768px) {
+  .col-md-1 {
+    display: none;
+  }
 }

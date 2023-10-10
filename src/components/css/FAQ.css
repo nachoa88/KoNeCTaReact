@@ -1,15 +1,13 @@
-.faq {
+#faq {
   margin-bottom: 30px;
-  padding: 2%;
+  padding: 5%;
 }
 
-.light-mode .faq {
+.light-mode #faq {
   color: black;
   background-color: rgba(211, 211, 211, 0.5);
   border: 1px solid #B53457;
   border-radius: 10px;
-  padding: 2%;
-  margin-bottom: 30px;
 }
 
 .question {
