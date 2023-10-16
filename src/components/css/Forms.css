@@ -3,6 +3,7 @@
   color: whitesmoke;
   font-size: 20px;
   transition: color 0.5s ease;
+  margin-bottom: 5px;
 }
 
 .light-mode .formlabel {
@@ -56,6 +57,7 @@
   font-size: 16px;
   height: auto;
   padding: 10px;
+  margin-bottom: 25px;
 }
 
 #rememberMe {
@@ -74,25 +76,6 @@
 .light-mode #terms, 
 .light-mode #rememberMe {
   color: black;
-}
-
-#name,
-#surname,
-#email,
-#username,
-#password,
-#rpassword,
-#signup,
-#eventName,
-#eventType,
-#eventDescription,
-#startingDate,
-#finishingDate,
-#startingTime,
-#finishingTime,
-#locationHtml,
-#location {
-  margin-bottom: 20px;
 }
 
 form fieldset {

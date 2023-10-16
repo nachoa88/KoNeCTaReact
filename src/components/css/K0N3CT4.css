@@ -1,13 +1,58 @@
-.ejemplo {
+.aboutus {
     margin-bottom: 30px;
     padding: 2%;
 }
 
-.light-mode .ejemplo {
+.light-mode .aboutus {
     color: black;
   background-color: rgba(211, 211, 211, 0.5);
   border: 1px solid #B53457;
   border-radius: 10px;
-  padding: 2%;
-  margin-bottom: 30px;
+}
+
+.aboutus h2 {
+  font-family: Kaushan Script;
+  color: whitesmoke;
+  transition: color 0.5s ease;
+  text-align: center;
+  line-height: 50px;
+}
+
+.light-mode .aboutus h2 {
+  font-family: Kaushan Script;
+  color: black;
+  transition: color 0.5s ease;
+  text-align: center;
+  line-height: 50px;
+}
+
+p {
+  text-align: justify;
+}
+
+p ul {
+  list-style: square;
+}
+
+.sizeh5 {
+  text-align: center;
+  font-size: larger;
+
+}
+
+#infoproject {
+  margin-top: 50px;
+}
+
+fieldset {
+  float: left;
+  width: 45%;
+  padding: 0% 5% 0% 5%;
+}
+
+@media screen and (max-width: 767px) {
+  fieldset {
+    width: 100%;
+    padding: 0% 5% 0% 5%;
+  }
 }

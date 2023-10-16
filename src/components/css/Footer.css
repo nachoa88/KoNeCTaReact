@@ -6,8 +6,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap; /* Para controlar que entren en la pantalla y no quede media palabra fuera en pantallas pequeñas */
 }
 
-#footer a {
+#footer .navbar-brand {
   margin: 0 50px; /* Agregué un poco de margen en los elementos del navbar */
+}
+
+/* Menos margen para smaller screens */
+@media (max-width: 768px) {
+  #footer .navbar-brand {
+    margin: 10px;
+  }
 }
